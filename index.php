@@ -1,7 +1,7 @@
 <html>
 
 	<head>
-		<title>Bootstrap 101 Template</title>
+		<title>Pet Foster ABQ Sign-In</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -35,28 +35,34 @@
 					<span class="close">&times;</span>
 					<h2>Pet Resecue ABQ Header</h2>
 				</div>
+
+				<form #signInForm="ngForm" name="signInForm" id="signInForm"
+						(ngSubmit)="signIn();">
+
 				<div class="modal-body">
-
-
 					<div class="container">
 						<h2 align="center">Authentication</h2>
 						<div class="center">
 							<form method="post" action="/signin" class="form-horizontal" role="form" align="center">
 								<div class="form-group" align="center">
-									<label class="control-label col-sm-2" for="username">Username:<em>*</em></label>
+									<label class="control-label col-sm-2" for="email">Email:<em>*</em></label>
 									<div class="col-sm-6">
-										<input type="text" name="username" id="username" placeholder="username" required="true" class="form-control" />
+
+										<input type="text" name="email" id="email" placeholder="email" required [(ngModel)]="signIn.profileEmail" #profileEmail="ngModel" class="form-control" />
+
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="control-label col-sm-2" for="password">Password:<em>*</em></label>
 									<div class="col-sm-6">
-										<input type="password" name="password" id="password" required="true" class="form-control" />
+
+										<input type="password" name="password" id="password" required [(ngModel)]="signIn.profilePassword" #profilePassword="ngModel" class="form-control" />
+
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col-sm-offset-2 col-sm-8">
-										<input type="submit" name="signin" id="signin" value="Sign In" class="btn btn-default" />
+										<input type="submit" name="signin" id="signin" [disabled]="signInForm.invalid" value="Sign In" class="btn btn-default" />
 									</div>
 								</div>
 							</form>

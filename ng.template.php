@@ -5,10 +5,10 @@
 			<div class="col-md-4">
 				<h1>Create New Message</h1>
 
-				<!-- Create New Post Form -->
+				<!-- Create New Message Form -->
 				<form id="messageForm" name="messageForm" #messageForm ="ngForm" (submit)="createMessage();">
 					<div class="form-group">
-						<label class="sr-only" for="postTitle">Title <span class="text-danger">*</span></label>
+						<label class="sr-only" for="messageTitle">Title <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-addon">
 								<i class="fa fa-pencil" aria-hidden="true"></i>
@@ -41,7 +41,7 @@
 			<div class="col-md-8">
 				<h1>Message History</h1>
 
-				<!-- Begin Post Item -->
+				<!-- Begin Message Item -->
 				<div *ngFor="let message of messages" class="panel panel-default">
 
 					<div class="panel-heading">
