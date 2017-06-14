@@ -1,77 +1,151 @@
-.center {
-	margin-left: auto;
-	margin-right: auto;
-}
 
 
 
-.modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	padding-top: 100px; /* Location of the box */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
-/* Modal Content */
-.modal-content {
-	position: relative;
-	background-color: #fefefe;
-	margin: auto;
-	padding: 0;
-	border: 1px solid #888;
-	width: 80%;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-	-webkit-animation-name: animatetop;
-	-webkit-animation-duration: 0.4s;
-	animation-name: animatetop;
-	animation-duration: 0.4s
-}
 
-/* Add Animation */
-@-webkit-keyframes animatetop {
-	from {top:-300px; opacity:0}
-	to {top:0; opacity:1}
-}
 
-@keyframes animatetop {
-	from {top:-300px; opacity:0}
-	to {top:0; opacity:1}
-}
 
-/* The Close Button */
-.close {
-	color: white;
-	float: right;
-	font-size: 4rem;
-	font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
-}
 
-.modal-header {
-	padding: 2px 16px;
-	background-color: #0033cc;
-	color: white;
-}
 
-.modal-body {padding: 2px 16px;}
 
-.modal-footer {
-	padding: 2px 16px;
-	background-color: #0033cc;
-	color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*.center {*!*/
+	/*!*margin-left: auto;*!*/
+	/*!*margin-right: auto;*!*/
+/*!*}*!*/
+
+
+
+/*.modal {*/
+	/*display: none; !* Hidden by default *!*/
+	/*position: fixed; !* Stay in place *!*/
+	/*z-index: 1; !* Sit on top *!*/
+	/*padding-top: 100px; !* Location of the box *!*/
+	/*left: 0;*/
+	/*top: 0;*/
+	/*width: 100%; !* Full width *!*/
+	/*height: 100%; !* Full height *!*/
+	/*overflow: auto; !* Enable scroll if needed *!*/
+	/*background-color: rgb(0,0,0); !* Fallback color *!*/
+	/*background-color: rgba(0,0,0,0.4); !* Black w/ opacity *!*/
+/*}*/
+
+/*!* Modal Content *!*/
+/*.modal-content {*/
+	/*position: relative;*/
+	/*background-color: #fefefe;*/
+	/*margin: auto;*/
+	/*padding: 0;*/
+	/*border: 1px solid #888;*/
+	/*width: 80%;*/
+	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
+	/*-webkit-animation-name: animatetop;*/
+	/*-webkit-animation-duration: 0.4s;*/
+	/*animation-name: animatetop;*/
+	/*animation-duration: 0.4s*/
+/*}*/
+
+/*!* Add Animation *!*/
+/*@-webkit-keyframes animatetop {*/
+	/*from {top:-300px; opacity:0}*/
+	/*to {top:0; opacity:1}*/
+/*}*/
+
+/*@keyframes animatetop {*/
+	/*from {top:-300px; opacity:0}*/
+	/*to {top:0; opacity:1}*/
+/*}*/
+
+/*!* The Close Button *!*/
+/*.close {*/
+	/*color: white;*/
+	/*float: right;*/
+	/*font-size: 4rem;*/
+	/*font-weight: bold;*/
+/*}*/
+
+/*.close:hover,*/
+/*.close:focus {*/
+	/*color: #000;*/
+	/*text-decoration: none;*/
+	/*cursor: pointer;*/
+/*}*/
+
+/*.modal-header {*/
+	/*padding: 2px 16px;*/
+	/*background-color: #0033cc;*/
+	/*color: white;*/
+/*}*/
+
+/*.modal-body {padding: 2px 16px;}*/
+
+/*.modal-footer {*/
+	/*padding: 2px 16px;*/
+	/*background-color: #0033cc;*/
+	/*color: white;*/
+/*}*/
 
 /*0033cc*/
+
+
+/*Once a user has decided on a furry companion, they will then use our messaging system to contact the organization.*/
+ /*With the user having direct contact of the organization, the user is able to ask *!*/
+/*any question or concerns to help with the fostering process. The organization and the user will never have to worry about
+communications, by getting their emails overlooked or being sent to the the spam folder.
+The message history will also always be there and be able to be looked at again.
+
+In conclusion, I know rescuing high risk animals is not going to be fixed over night, I know adding another animal
+to a household takes up a lot time and responsibility , I know most pet owners would rather get their animals at
+ an early age than an older high risk animal. But the next time you are looking to give an animal their forever home, think about these
+rescued animals that have been sitting in shelters for weeks, months, and even years.
+ You wont change the world by saving an animal, but you will change that animals world; so
+rescue an animal, be a hero! Appreciate your time!
+
+
+
+
+
+*/
